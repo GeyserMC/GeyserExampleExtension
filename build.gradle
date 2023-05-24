@@ -3,18 +3,12 @@ plugins {
     id 'java'
 }
 
-group 'me.geyser.extension.hidecommands'
-version '1.0.1'
+group 'me.geyser.extension.exampleid'
+version '1.0.0'
 
 repositories {
     mavenCentral()
     mavenLocal()
-    maven {
-        url 'https://repo.opencollab.dev/maven-releases'
-        mavenContent {
-            releasesOnly()
-        }
-    }
     maven {
         url 'https://repo.opencollab.dev/maven-snapshots'
         mavenContent {

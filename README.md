@@ -1,5 +1,5 @@
 # Example Extension
-A Geyser extension template to build off.
+A Geyser extension template to make making extensions easier.
 
 ## Usage
 1. Create a new repository using this template, make your extension - basic structure already exists

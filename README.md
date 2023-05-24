@@ -1,4 +1,4 @@
-# Example Extension
+# Example Geyser Extension
 A Geyser extension template to make making extensions easier.
 
 ## What can extensions do?
@@ -11,13 +11,13 @@ A Geyser extension template to make making extensions easier.
 
 ## Existing extensions:
 - GeyserConnect: https://github.com/GeyserMC/GeyserConnect 
-- MCXboxBroadCast: https://github.com/rtm516/MCXboxBroadcast
+- MCXboxBroadcast: https://github.com/rtm516/MCXboxBroadcast
 - HideCommands: https://github.com/Redned235/HideCommands
 - per-player-packs (not yet operational, PR in Geyser still open): https://github.com/onebeastchris/packs-extension/
 - (to be updated!): https://github.com/SofiaRedmond/Slimefun-Geyser
 - EmoteCraft: https://github.com/KosmX/geyser-emote-extension 
 
-## Usage
+## Usage of this template:
 1. Create a new repository using this template, make your extension - basic structure already exists
 2. Run `./gradlew build` to build the extension
 3. Copy the built jar from `build/libs` to your Geyser's extensions folder

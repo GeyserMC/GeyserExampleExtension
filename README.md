@@ -10,12 +10,14 @@ A Geyser extension template to make making extensions easier.
 - more to be added - if you have suggestions, reach out to the GeyserMC discord: https://discord.gg/geysermc
 
 ## Existing extensions:
+They're here as reference points to make your own, not all are operational.
+
 - GeyserConnect: https://github.com/GeyserMC/GeyserConnect 
 - MCXboxBroadcast: https://github.com/rtm516/MCXboxBroadcast
 - HideCommands: https://github.com/Redned235/HideCommands
 - per-player-packs (not yet operational, PR in Geyser still open): https://github.com/onebeastchris/packs-extension/
-- (to be updated!): https://github.com/SofiaRedmond/Slimefun-Geyser
-- EmoteCraft: https://github.com/KosmX/geyser-emote-extension 
+- Slimefun (not working atm): https://github.com/SofiaRedmond/Slimefun-Geyser
+- EmoteCraft (used for the emotectaft mod): https://github.com/KosmX/geyser-emote-extension 
 
 ## Usage of this template:
 1. Create a new repository using this template, make your extension - basic structure already exists

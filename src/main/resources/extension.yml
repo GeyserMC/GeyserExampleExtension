@@ -1,6 +1,6 @@
-id: hidecommands
-name: HideCommands
-main: me.redned.geyser.extension.hidecommands.HideCommands
+id: exampleid
+name: ExampleExtension
+main: org.geyser.extension.exampleid.ExampleExtension
 api: 1.0.0
 version: 1.0.1
-authors: [Redned]
+authors: [ExampleAuthor]

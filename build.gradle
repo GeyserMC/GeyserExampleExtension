@@ -3,7 +3,7 @@ plugins {
     id 'java'
 }
 
-group 'me.geyser.extension.exampleid'
+group 'org.geyser.extension.exampleid'
 version '1.0.0'
 
 repositories {
@@ -18,8 +18,14 @@ repositories {
 }
 
 dependencies {
-    // Geyser API
+    // Geyser API - needed for all extensions
     api 'org.geysermc.geyser:api:2.1.0-SNAPSHOT'
+
+    // If you want to use the Cumulus for forms, uncomment the following line.
+    // Usually, you would need to include it as an implementation, but Geyser provides it, so you can use it as an API.
+    api 'org.geysermc.cumulus:api:1.0-SNAPSHOT'
+
+    // Include other dependencies here - e.g. for configuration.
 }
 
 test {

@@ -27,7 +27,3 @@ dependencies {
 
     // Include other dependencies here - e.g. for configuration.
 }
-
-test {
-    useJUnitPlatform()
-}

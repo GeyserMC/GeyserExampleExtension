@@ -1,4 +1,4 @@
-# Example Geyser Extension
+# Geyser Extension Template
 A Geyser extension template to make making extensions easier.
 
 ## What can extensions do?

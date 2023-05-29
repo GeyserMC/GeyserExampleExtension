@@ -25,7 +25,7 @@ repositories {
 
 dependencies {
     // Geyser API - needed for all extensions
-    api 'org.geysermc.geyser:api:2.1.0-SNAPSHOT'
+    compileOnly 'org.geysermc.geyser:api:2.1.0-SNAPSHOT'
 
     // Include other dependencies here - e.g. for configuration.
 }

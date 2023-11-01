@@ -1,10 +1,19 @@
 # Geyser Extension Template
-A Geyser Extension template for creating Geyser Extensions.
+A Geyser Extension template for creating Geyser Extensions. 
 
-## Extension Features
-- Register [custom items](https://wiki.geysermc.org/geyser/custom-items/) in code
+## What are Geyser extensions?
+Geyser Extensions are the equivalent of “plugins”, but specifically for the Geyser platform. This brings the advantage of them being platform-agnostic, meaning that you won’t have to worry about supporting all platforms individually. Additionally, they will be, by design, only applied for Bedrock players joining via Geyser.
+
+## What can extensions do?
+- Register [custom items](https://wiki.geysermc.org/geyser/custom-items/), [custom blocks](https://wiki.geysermc.org/geyser/custom-blocks/#geyser-extensions) and more in code!
 - Listen and toggle various Bedrock features (i.e. commands)
 - Send forms to Bedrock players using [Cumulus](https://github.com/GeyserMC/Cumulus)
+- Listen and interact with [Events](https://wiki.geysermc.org/geyser/events/) 
+
+## GeyserAPI / Geyer Extension docs:
+- [Geyser extensions guide](https://wiki.geysermc.org/geyser/extensions/)
+- [Geyser API introduction](https://wiki.geysermc.org/geyser/api/)
+- [Introduction to Events](https://wiki.geysermc.org/geyser/events/)
 
 ## Using this Template
 1. Create a new repository using this template
@@ -13,11 +22,13 @@ A Geyser Extension template for creating Geyser Extensions.
 4. Run `./gradlew build` to build the extension
 5. Copy the built jar from `build/libs` to your Geyser's extensions folder
 
+## Documentation
+Our [wiki](https://wiki.geysermc.org/) has helpful articles  
+
 ## Coming Soon
-- Custom blocks
 - Custom entities
 - Resource packs represented in code
-- 
+
 ## Existing Extensions
 See our list [here](https://github.com/GeyserMC/GeyserExtensionList).
 

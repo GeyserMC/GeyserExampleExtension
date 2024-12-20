@@ -36,7 +36,7 @@ See our list [here](https://github.com/GeyserMC/GeyserExtensionList).
 Reach out on our [Discord](https://discord.gg/geysermc)!
 
 ## Important Notes
-- `extension.yml` is required for Geyser to load the extension. It must be in the resources' folder.
+- `extension.yml` is required for Geyser to load the extension. It must be in the `resources` folder.
 - Geyser Extensions: https://github.com/GeyserMC/Geyser/blob/master/api/src/main/java/org/geysermc/geyser/api/extension/Extension.java
 - Geyser API docs: https://github.com/GeyserMC/Geyser/blob/master/api/src/main/java/org/geysermc/geyser/api/
 

@@ -5,6 +5,7 @@ plugins {
 val id = project.property("id") as String
 val extensionName = project.property("name") as String
 var mainClass: String? = null
+val geyserApiVersion = "2.6.1"
 
 repositories {
     // Repo for the Geyser API artifact
@@ -16,7 +17,7 @@ repositories {
 
 dependencies {
     // Geyser API - needed for all extensions
-    compileOnly("org.geysermc.geyser:api:2.6.1-SNAPSHOT")
+    compileOnly("org.geysermc.geyser:api:$geyserApiVersion-SNAPSHOT")
 
     // Include other dependencies here - e.g. configuration libraries.
 }
@@ -47,6 +48,7 @@ tasks {
             expand(
                 "id" to id,
                 "name" to extensionName,
+                "api" to geyserApiVersion,
                 "main" to mainClass,
                 "version" to project.version,
                 "author" to project.property("author")

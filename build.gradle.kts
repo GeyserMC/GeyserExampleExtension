@@ -4,7 +4,6 @@ plugins {
 
 val id = project.property("id") as String
 val extensionName = project.property("name") as String
-var mainClass: String? = null
 val geyserApiVersion = "2.6.1"
 
 repositories {
@@ -49,7 +48,6 @@ tasks {
                 "id" to id,
                 "name" to extensionName,
                 "api" to geyserApiVersion,
-                "main" to mainClass,
                 "version" to project.version,
                 "author" to project.property("author")
             )

@@ -1,6 +1,6 @@
-id: exampleid
-name: ExampleExtension
+id: $id
+name: $name
 main: org.geyser.extension.exampleid.ExampleExtension
-api: 2.6.0
-version: 1.0.0
-authors: [ExampleAuthor]
+api: $api
+version: $version
+authors: [$author]

@@ -8,26 +8,18 @@ Geyser Extensions are the equivalent of “plugins”, but specifically for the 
 - Register [custom items](https://wiki.geysermc.org/geyser/custom-items/), [custom blocks](https://wiki.geysermc.org/geyser/custom-blocks/#geyser-extensions) and more in code!
 - Listen and toggle various Bedrock features (i.e. commands)
 - Send forms to Bedrock players using [Cumulus](https://github.com/GeyserMC/Cumulus)
-- Listen and interact with [Events](https://wiki.geysermc.org/geyser/events/) 
-
-## GeyserAPI / Geyser Extension docs:
-- [Geyser extensions guide](https://wiki.geysermc.org/geyser/extensions/)
-- [Geyser API introduction](https://wiki.geysermc.org/geyser/api/)
-- [Introduction to Events](https://wiki.geysermc.org/geyser/events/)
+- Listen and interact with [Events](https://wiki.geysermc.org/geyser/events/)
 
 ## Using this Template
-1. Create a new repository using this template
-2. Replace the data in `extension.yml` with data relevant to your extension
-3. Update the main extension class
-4. Run `./gradlew build` to build the extension
-5. Copy the built jar from `build/libs` to your Geyser's extensions folder
+Click "Use this template" on the top right, and create your own repo. 
+Then, see the [usage guide](./USAGE.md) for instructions on how to use this template.
 
 ## Documentation
-Our [wiki](https://wiki.geysermc.org/) has helpful articles  
-
-## Coming Soon
-- Custom entities
-- Resource packs represented in code
+Our [wiki](https://geysermc.org/wiki/) has helpful articles. The following are recommended:
+- Geyser Event System documentation: https://geysermc.org/wiki/geyser/events
+- Geyser Forms / Cumulus documentation: https://geysermc.org/wiki/geyser/forms
+- Brief overview on the Geyser API: https://geysermc.org/wiki/geyser/api
+- Extension docs: https://geysermc.org/wiki/geyser/extensions
 
 ## Existing Extensions
 See our list [here](https://github.com/GeyserMC/GeyserExtensionList).
@@ -38,5 +30,5 @@ Reach out on our [Discord](https://discord.gg/geysermc)!
 ## Important Notes
 - `extension.yml` is required for Geyser to load the extension. It must be in the `resources` folder.
 - Geyser Extensions: https://github.com/GeyserMC/Geyser/blob/master/api/src/main/java/org/geysermc/geyser/api/extension/Extension.java
-- Geyser API docs: https://github.com/GeyserMC/Geyser/blob/master/api/src/main/java/org/geysermc/geyser/api/
+- Geyser API javadocs: https://repo.opencollab.dev/javadoc/maven-snapshots/org/geysermc/geyser/api/latest
 

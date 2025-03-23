@@ -10,7 +10,7 @@ Geyser Extensions are the equivalent of “plugins”, but specifically for the 
 - Send forms to Bedrock players using [Cumulus](https://github.com/GeyserMC/Cumulus)
 - Listen and interact with [Events](https://wiki.geysermc.org/geyser/events/) 
 
-## GeyserAPI / Geyer Extension docs:
+## GeyserAPI / Geyser Extension docs:
 - [Geyser extensions guide](https://wiki.geysermc.org/geyser/extensions/)
 - [Geyser API introduction](https://wiki.geysermc.org/geyser/api/)
 - [Introduction to Events](https://wiki.geysermc.org/geyser/events/)
@@ -18,7 +18,7 @@ Geyser Extensions are the equivalent of “plugins”, but specifically for the 
 ## Using this Template
 1. Create a new repository using this template
 2. Replace the properties in `gradle.properties` with your desired values
-3. Refactor the module name from `org.geyser.extension.exampleid` to your desired 
+3. Refactor the module name from `org.geyser.extension.exampleid` to your desired unique module name
 4. Update the main extension class in the `resources/extension.yml` file. 
 By default, the `id`, `name`, `version` and `author` fields will be populated with the info in your gradle.properties file.
 5. Run `./gradlew build` to build the extension
@@ -34,7 +34,7 @@ See our list [here](https://github.com/GeyserMC/GeyserExtensionList).
 Reach out on our [Discord](https://discord.gg/geysermc)!
 
 ## Important Notes
-- `extension.yml` is required for Geyser to load the extension. It must be in the resources folder.
+- `extension.yml` is required for Geyser to load the extension. It must be in the `resources` folder.
 - Geyser Extensions: https://github.com/GeyserMC/Geyser/blob/master/api/src/main/java/org/geysermc/geyser/api/extension/Extension.java
 - Geyser API javadocs: https://repo.opencollab.dev/javadoc/maven-snapshots/org/geysermc/geyser/api/latest
 

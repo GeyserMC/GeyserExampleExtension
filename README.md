@@ -8,24 +8,18 @@ Geyser Extensions are the equivalent of “plugins”, but specifically for the 
 - Register [custom items](https://wiki.geysermc.org/geyser/custom-items/), [custom blocks](https://wiki.geysermc.org/geyser/custom-blocks/#geyser-extensions) and more in code!
 - Listen and toggle various Bedrock features (i.e. commands)
 - Send forms to Bedrock players using [Cumulus](https://github.com/GeyserMC/Cumulus)
-- Listen and interact with [Events](https://wiki.geysermc.org/geyser/events/) 
-
-## GeyserAPI / Geyser Extension docs:
-- [Geyser extensions guide](https://wiki.geysermc.org/geyser/extensions/)
-- [Geyser API introduction](https://wiki.geysermc.org/geyser/api/)
-- [Introduction to Events](https://wiki.geysermc.org/geyser/events/)
+- Listen and interact with [Events](https://wiki.geysermc.org/geyser/events/)
 
 ## Using this Template
-1. Create a new repository using this template
-2. Replace the properties in `gradle.properties` with your desired values
-3. Refactor the module name from `org.geyser.extension.exampleid` to your desired unique module name
-4. Update the main extension class in the `resources/extension.yml` file. 
-By default, the `id`, `name`, `version` and `author` fields will be populated with the info in your gradle.properties file.
-5. Run `./gradlew build` to build the extension
-6. Copy the built jar from `build/libs` to your Geyser's extensions folder
+Click "Use this template" on the top right, and create your own repo. 
+Then, see the [usage guide](./USAGE.md) for instructions on how to use this template.
 
 ## Documentation
-Our [wiki](https://geysermc.org/wiki/) has helpful articles  .
+Our [wiki](https://geysermc.org/wiki/) has helpful articles. The following are recommended:
+- Geyser Event System documentation: https://geysermc.org/wiki/geyser/events
+- Geyser Forms / Cumulus documentation: https://geysermc.org/wiki/geyser/forms
+- Brief overview on the Geyser API: https://geysermc.org/wiki/geyser/api
+- Extension docs: https://geysermc.org/wiki/geyser/extensions
 
 ## Existing Extensions
 See our list [here](https://github.com/GeyserMC/GeyserExtensionList).

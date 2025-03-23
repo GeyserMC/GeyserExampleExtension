@@ -17,17 +17,15 @@ Geyser Extensions are the equivalent of “plugins”, but specifically for the 
 
 ## Using this Template
 1. Create a new repository using this template
-2. Replace the data in `extension.yml` with data relevant to your extension
-3. Update the main extension class
-4. Run `./gradlew build` to build the extension
-5. Copy the built jar from `build/libs` to your Geyser's extensions folder
+2. Replace the properties in `gradle.properties` with your desired values
+3. Refactor the module name from `org.geyser.extension.exampleid` to your desired 
+4. Update the main extension class in the `resources/extension.yml` file. 
+By default, the `id`, `name`, `version` and `author` fields will be populated with the info in your gradle.properties file.
+5. Run `./gradlew build` to build the extension
+6. Copy the built jar from `build/libs` to your Geyser's extensions folder
 
 ## Documentation
-Our [wiki](https://wiki.geysermc.org/) has helpful articles  
-
-## Coming Soon
-- Custom entities
-- Resource packs represented in code
+Our [wiki](https://geysermc.org/wiki/) has helpful articles  .
 
 ## Existing Extensions
 See our list [here](https://github.com/GeyserMC/GeyserExtensionList).
@@ -38,5 +36,5 @@ Reach out on our [Discord](https://discord.gg/geysermc)!
 ## Important Notes
 - `extension.yml` is required for Geyser to load the extension. It must be in the resources folder.
 - Geyser Extensions: https://github.com/GeyserMC/Geyser/blob/master/api/src/main/java/org/geysermc/geyser/api/extension/Extension.java
-- Geyser API docs: https://github.com/GeyserMC/Geyser/blob/master/api/src/main/java/org/geysermc/geyser/api/
+- Geyser API javadocs: https://repo.opencollab.dev/javadoc/maven-snapshots/org/geysermc/geyser/api/latest
 
